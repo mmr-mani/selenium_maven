@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-username/selenium-jenkins-demo.git'
+                git 'https://github.com/mmr-mani/selenium_maven.git'
             }
         }
 
